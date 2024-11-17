@@ -5,7 +5,7 @@ FED Assignment 1
 ## Design Process
 This website will have an enhanced visual appeal to provide a much more plesant viewing experience to customers interested in buying pastries from the brand.
 
-- As a customer, I want to view the pastry company's menu so I would know they are offering and where to visit the physical store locations or know how to contact the company if I am interested in purchasing from them.
+- As a customer, I want to view the pastry company's menu so I would know they are offering, where to visit the physical store locations or know how to contact the company if I am interested in purchasing from them, and learn more about the company's goal and history.
 
 ## Features
 There will be a total of 4 newly revamped pages to this website
