@@ -1,6 +1,6 @@
 # FED2024Assg1_P04_S10267391
 FED Assignment 1
-For this assignment, I will be making a revamped version of a pastry brand's website
+- For this assignment, I will be making a revamped version of a pastry brand's website
 
 ## Design Process
 This website will have an enhanced visual appeal to provide a much more plesant viewing experience to customers interested in buying pastries from the brand.
@@ -20,7 +20,7 @@ There will be a total of 4 newly revamped pages to this website
 - Stores & Contact - Store locations & contact information
 
 ## Technologies Used
-(In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.)
+(Mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.)
 
 - HTML
 - CSS
@@ -35,10 +35,9 @@ Contact form:
 - Try to submit the form with all inputs valid and verify that a success message appears.
 
 (In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.)
+(Mention any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.)
 
-(You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.)
-
-## Credits
+## Credits (WIP)
 ### Content
 - Text and all information used for the entire website was taken from ...
 
