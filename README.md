@@ -24,6 +24,7 @@ There will be a total of 4 newly revamped pages to this website
 
 - HTML
 - CSS
+- Javascript
 
 ## Testing (WIP)
 (For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:)
@@ -39,10 +40,12 @@ Contact form:
 
 ## Credits (WIP)
 ### Content
-- Text and all information used for the entire website was taken from ...
+- Text and all information used for the website was taken from 
+https://chateraisesg.getz.co/ and https://www.chateraise.co.jp/global
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from https://chateraisesg.getz.co/
+- Logo photo used in this site was taken from https://www.chateraise.co.jp/ec/c/cXmas/
 
 ### Acknowledgements
 - TBA

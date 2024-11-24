@@ -1,0 +1,14 @@
+
+div {
+    background-color: rgb(88, 48, 33);
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.navlist {
+  display: inline;
+}
