@@ -1,14 +1,44 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
 
 div {
-    background-color: rgb(88, 48, 33);
+  background-color: rgb(88, 48, 33);
+}
+
+section {
+  width: 100%;
+  background-color: #F0ECE9;
 }
 
 .navigation {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   }
 
 .navlist {
   display: inline;
+}
+
+.mainimg {
+  width: 100%;
+}
+
+.centertext{
+  text-align: center;
+}
+
+.title {
+  color: white;
+  text-align: center;
+}
+
+.menutitle {
+  color: white;
+}
+
+.option {
+  width: 20%;
 }
