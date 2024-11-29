@@ -11,13 +11,16 @@ This website will have an enhanced visual appeal to provide a much more plesant 
 There will be a total of 4 newly revamped pages to this website
 
 ### Existing Features
-- TBA
+- Working navigation between Home, Menu, About and Stores & Contact pages
+- Home page
+- About page
+- Menu page
+- Stores & Contact page
 
 ### Features Left to Implement
-- Home page - Displays Popular/Featured/Limited edition items
-- Menu - Showcases the different types of cakes and pastries being sold
-- About - Information about the company's goal and history
-- Stores & Contact - Store locations & contact information
+- Home: Display Popular/Featured/Limited edition items
+- Menu: Showcase the different types of cakes and pastries being sold
+- Javascript: lower opacity of menu and view more buttons when hovered over 
 
 ## Technologies Used
 (Mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.)
@@ -38,7 +41,7 @@ Contact form:
 (In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.)
 (Mention any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.)
 
-## Credits (WIP)
+## Credits
 ### Content
 - Text and all information used for the website was taken from 
 https://chateraisesg.getz.co/ and https://www.chateraise.co.jp/global
@@ -48,4 +51,4 @@ https://chateraisesg.getz.co/ and https://www.chateraise.co.jp/global
 - Logo photo used in this site was taken from https://www.chateraise.co.jp/ec/c/cXmas/
 
 ### Acknowledgements
-- TBA
+- 

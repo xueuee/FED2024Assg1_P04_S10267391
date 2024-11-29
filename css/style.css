@@ -1,15 +1,37 @@
 body, html {
   margin: 0;
   padding: 0;
+  font-family: Arial;
 }
 
-div {
-  background-color: rgb(88, 48, 33);
+ /* Media query to cater to mobile device screen */
+@media screen and (max-width: 576px){
+  .flex-item {
+    flex: 0 45%;
+}}
+
+div.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(88, 48, 33); /* fix colour to the one on actual website*/
 }
 
 section {
   width: 100%;
   background-color: #F0ECE9;
+}
+
+h1, h2, h3, h4 {
+  color: white;
+  text-align: center;
+}
+
+/* Make colour of title in section for 
+"Ingredients & production method" black*/
+h2.about-ingre {
+  color: black;
 }
 
 .navigation {
@@ -30,15 +52,47 @@ section {
   text-align: center;
 }
 
-.title {
-  color: white;
-  text-align: center;
+h2.menutitle {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left:20px;
+  height: 100px;
+  background-color: rgb(88, 48, 33); /* fix colour to the one on actual website*/
+}
+/* Home/Index Flexboxes */
+.home-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  /*wrap flex items to new row if not enough space */
 }
 
-.menutitle {
-  color: white;
+/* Menu FLexboxes */
+.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  /*wrap flex items to new row if not enough space */
 }
 
-.option {
-  width: 20%;
+/* flex item of 20% per item */
+.flex-item {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 15%; /* 15% for borders*/
+  display: flex;
+  flex-direction: column;
+  /* so child elements can use flexbox stuff too! */
+  /* switching on borders will force the 5th flex item to move down*/
+  border: 1px solid #D3D3D3;
+}
+
+.flex-item img {
+  width: 100%;
+}
+
+/* Stores & Contact */
+.storeinfo {
+  padding-left: 50px;
 }
