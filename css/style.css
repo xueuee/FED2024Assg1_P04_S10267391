@@ -354,6 +354,7 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: Arial;
+  color: #532A17;
 }
 
  /* Mobile device screen */
@@ -612,7 +613,7 @@ button:hover {
 /*------------------------------------------------------------------------*/
 /* About */
 h2.about-ingre {
-  color: black;
+  color: #532A17;
 }
 
 .centertext{
