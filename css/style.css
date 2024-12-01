@@ -53,32 +53,6 @@ body, html {
     flex: 0 45%;
 }
 }
-
-/*------------------------------------------------------------------------*/
-/* Desktop Screen */
-@media screen and (min-width: 700px){
-  nav {
-    margin-left: auto; /* Push nav items to the right */
-  }
-}
-
-@media screen and (min-width: 1000px){
-  .flex-item {
-    padding: 10px;
-    flex-basis: 15%;
-    display: flex;
-    flex-direction: column;
-    min-height: 300px;
-  }
-  
-  .flex-item img {
-    width: 100%;
-    min-width: 250px;
-    min-height: 250px;
-    margin: 0 10px; /* Center the image */
-  }
-}
-
 /*------------------------------------------------------------------------*/
 /* Logo & Navigation */
 .logo-nav-container {
@@ -107,7 +81,7 @@ nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex; /* Display nav items in a row */
+  display: flex;
   gap: 5px;
 }
 
@@ -116,7 +90,7 @@ nav {
   color: grey;
   font-weight: bold;
   font-size: 16px;
-  padding: 10px 15px 10px 15px; /* Padding around each button */
+  padding: 10px 15px 10px 15px;
   transition: background-color 0.3s ease;
   white-space: nowrap;
 }
@@ -127,9 +101,14 @@ nav {
 }
 
 /*------------------------------------------------------------------------*/
+/* General styling */
 .mainimg {
   width: 100%;
   display: block;
+}
+
+.notice {
+  padding: 15px;
 }
 
 section {
@@ -150,16 +129,6 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
-/* Colour of title in section for 
-"Ingredients & production method" black*/
-h2.about-ingre {
-  color: black;
-}
-
-.centertext{
-  text-align: center;
-}
-
 h2.menutitle {
   display: flex;
   justify-content: left;
@@ -170,13 +139,13 @@ h2.menutitle {
 }
 
 /*------------------------------------------------------------------------*/
-/* Home/Index page Flexboxes */
+/* Home/Index */
 .home-container {
   display: flex;
   justify-content: center;
   align-items: top;
   width: 100%;
-  padding: 0 20px; /* Space around container */
+  padding: 0 20px;
 }
 
 /* View More Button & Container */
@@ -215,7 +184,7 @@ button:hover {
   width: 100%;
   max-width: 250px;
   height: auto;
-  margin: 0 10px; /* Center the image */
+  margin: 0 10px;
 }
 
 .flex-info {
@@ -255,7 +224,7 @@ button:hover {
   width: 100%;
   max-width: 350px;
   height: auto;
-  margin: 0 10px; /* Center the image */
+  margin: 0 10px;
 }
 
 .menu-info {
@@ -275,30 +244,106 @@ button:hover {
   font-weight: bold;
 }
 
-/* Mobile and smaller screen adjustments */
-@media screen and (max-width: 700px) {
-  .menu-item {
-    flex: 0 30%;
-  }
-}
 
-/* Further mobile optimization */
-@media screen and (max-width: 500px) {
-  .menu-item {
-    width: 100%;
-  }
-}
 /*------------------------------------------------------------------------*/
 /* Stores & Contact */
 .storeinfo {
   padding-left: 50px;
 }
 
+/* Align text in storesncontact and about */
 .centertext p, .about-align-text {
-  padding: 50px 50px;
+  padding: 50px 0;
+  margin: 0 200px;
+  max-width: 100%;
+}
+
+/*------------------------------------------------------------------------*/
+/* About */
+h2.about-ingre {
+  color: black;
+}
+
+.centertext{
+  text-align: center;
+}
+
+.about-img {
+  padding: 20px 5px;
 }
 
 section.about-ingre {
   background-color: lightgrey;
   padding-top: 20px;
+}
+
+.about-ingre-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 20px;
+  margin: 40px;
+  gap: 20px;
+}
+
+.about-ingre-items p {
+  width: 35%;
+}
+
+.about-ingre-items ul {
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  margin: 20px 0;
+}
+
+.about-ingre-items ul li {
+  text-align: left;
+  padding: 5px 0;
+  font-size: 16px;
+}
+
+/*------------------------------------------------------------------------*/
+/* Mobile and smaller screen */
+@media screen and (max-width: 500px) {
+  .menu-item {
+    width: 100%;
+  }
+  .menu-item {
+    flex: 0 30%;
+  }
+
+.about-ingre-items {
+  flex-direction: column;
+}
+}
+
+/*------------------------------------------------------------------------*/
+/* Desktop Screen */
+@media screen and (min-width: 700px){
+  nav {
+    margin-left: auto; /* Push nav items to the right */
+  }
+}
+
+@media screen and (min-width: 1100px){
+  .flex-item {
+    padding: 10px;
+    flex-basis: 15%;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+  }
+  
+  .flex-item img {
+    width: 100%;
+    min-width: 250px;
+    min-height: 250px;
+    margin: 0 10px;
+  }
+
 }
