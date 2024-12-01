@@ -293,3 +293,12 @@ button:hover {
 .storeinfo {
   padding-left: 50px;
 }
+
+.centertext p, .about-align-text {
+  padding: 50px 50px;
+}
+
+section.about-ingre {
+  background-color: lightgrey;
+  padding-top: 20px;
+}
