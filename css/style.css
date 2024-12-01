@@ -5,7 +5,7 @@ body, html {
 }
 
  /* Mobile device screen */
-@media screen and (max-width: 750px){
+@media screen and (max-width: 700px){
   /* Logo and Navigation Container */
   .logo-nav-container {
     display: flex;
@@ -34,12 +34,19 @@ body, html {
   nav {
     display: flex;
     justify-content: center;
-    margin: 0 20px 0 20px;
+    margin: 0;
+    padding: 0;
     width: 100%;
   }
 
   .navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display nav items in a row */
     gap: 0px;
+    justify-content: center;
+    width: auto;
   }
 
   .flex-item {
@@ -47,12 +54,20 @@ body, html {
 }}
 
 /*------------------------------------------------------------------------*/
+/* Desktop Screen */
+@media screen and (min-width: 700px){
+  nav {
+    margin-left: auto; /* Push nav items to the right */
+  }
+}
+
+/*------------------------------------------------------------------------*/
 /* Logo & Navigation */
 .logo-nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10px; /* Reduced padding */
+  padding: 0 10px;
   height: 100px;
 }
 
@@ -68,7 +83,6 @@ nav {
   display: flex; 
   justify-content: flex-end; /* Align nav items to the right */
   width: auto;
-  margin-left: auto; /* Pushes nav items to the right */
 }
 
 .navigation {
