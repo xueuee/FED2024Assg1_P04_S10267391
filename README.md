@@ -7,6 +7,9 @@ This website will have an enhanced visual appeal to provide a much more plesant 
 
 - As a customer, I want to view the pastry company's menu so I would know they are offering, where to visit the physical store locations or know how to contact the company if I am interested in purchasing from them, and learn more about the company's goal and history.
 
+Wireframe Link
+https://www.figma.com/design/5PumGO9fgtYuA50uyjaBud/ID_S10267391H_LohXueNing_Assg1_Wireframe?node-id=1-2&t=zzKFEzJAobh3N1Z0-1
+
 ## Features
 There will be a total of 4 newly revamped pages to this website
 
