@@ -4,18 +4,95 @@ body, html {
   font-family: Arial;
 }
 
- /* Media query to cater to mobile device screen */
-@media screen and (max-width: 576px){
+ /* Mobile device screen */
+@media screen and (max-width: 750px){
+  /* Logo and Navigation Container */
+  .logo-nav-container {
+    display: flex;
+    flex-direction: column; /* Stack the logo and nav vertically */
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 64px;
+  }
+
+  .divider-1 {
+    width: 120%;
+    border-bottom: 1px solid black;
+    padding: 15px 0; /* Spacing for the container */
+    margin: 18px 0px; /* Space around the divider */
+  }
+
+  .divider-2 {
+    width: 120%;
+    border-top: 1px solid black;
+    padding: 15px 0; /* Spacing for the container */
+    margin: 18px 0px; /* Space around the divider */
+  }
+
+  /* Navigation Styling */
+  nav {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+    width: 100%;
+  }
+
+  .navigation {
+    gap: 0px;
+  }
+
   .flex-item {
     flex: 0 45%;
 }}
 
-div.title {
+/*------------------------------------------------------------------------*/
+/* Logo & Navigation */
+.logo-nav-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 20px; 
   height: 100px;
-  background-color: rgb(88, 48, 33); /* fix colour to the one on actual website*/
+}
+
+.logo {
+  max-height: 80px;
+  max-width: 100%;
+  display: block;
+}
+
+/* Navigation */
+nav {
+  display: flex; 
+}
+
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Display nav items in a row */
+  gap: 5px;
+}
+
+.navlist a {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 15px 10px 15px; /* Padding around each button */
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.navlist a:hover {
+  background-color: rgb(234, 234, 234);
+  border-radius: 5px; /* Rounded buttons */
+}
+
+.mainimg {
+  width: 100%;
+  display: block;
 }
 
 section {
@@ -23,29 +100,23 @@ section {
   background-color: #F0ECE9;
 }
 
+div.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(88, 48, 33); /* fix colour to actual website*/
+}
+
 h1, h2, h3, h4 {
   color: white;
   text-align: center;
 }
 
-/* Make colour of title in section for 
+/* Colour of title in section for 
 "Ingredients & production method" black*/
 h2.about-ingre {
   color: black;
-}
-
-.navigation {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  }
-
-.navlist {
-  display: inline;
-}
-
-.mainimg {
-  width: 100%;
 }
 
 .centertext{
@@ -58,14 +129,13 @@ h2.menutitle {
   align-items: center;
   padding-left:20px;
   height: 100px;
-  background-color: rgb(88, 48, 33); /* fix colour to the one on actual website*/
+  background-color: rgb(88, 48, 33); /* fix to color to actual website*/
 }
 /* Home/Index Flexboxes */
 .home-container {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  /*wrap flex items to new row if not enough space */
 }
 
 /* Menu FLexboxes */
@@ -73,7 +143,6 @@ h2.menutitle {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  /*wrap flex items to new row if not enough space */
 }
 
 /* flex item of 20% per item */

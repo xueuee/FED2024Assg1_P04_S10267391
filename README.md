@@ -20,7 +20,7 @@ There will be a total of 4 newly revamped pages to this website
 ### Features Left to Implement
 - Home: Display Popular/Featured/Limited edition items
 - Menu: Showcase the different types of cakes and pastries being sold
-- Javascript: lower opacity of menu and view more buttons when hovered over 
+- Incorporate Javascript code
 
 ## Technologies Used
 (Mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.)
