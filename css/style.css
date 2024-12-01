@@ -12,19 +12,19 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 64px;
   }
 
   .divider-1 {
-    width: 120%;
+    width: 104%;
     border-bottom: 1px solid black;
     padding: 15px 0; /* Spacing for the container */
     margin: 18px 0px; /* Space around the divider */
   }
 
   .divider-2 {
-    width: 120%;
+    width: 104%;
     border-top: 1px solid black;
     padding: 15px 0; /* Spacing for the container */
     margin: 18px 0px; /* Space around the divider */
@@ -81,7 +81,7 @@ body, html {
 /* Navigation */
 nav {
   display: flex; 
-  justify-content: flex-end; /* Align nav items to the right */
+  justify-content: flex-end;
   width: auto;
 }
 
@@ -105,9 +105,10 @@ nav {
 
 .navlist a:hover {
   background-color: rgb(234, 234, 234);
-  border-radius: 5px; /* Rounded buttons */
+  border-radius: 5px;
 }
 
+/*------------------------------------------------------------------------*/
 .mainimg {
   width: 100%;
   display: block;
@@ -123,7 +124,7 @@ div.title {
   justify-content: center;
   align-items: center;
   height: 100px;
-  background-color: rgb(88, 48, 33); /* fix colour to actual website*/
+  background-color: #532b1d;
 }
 
 h1, h2, h3, h4 {
@@ -147,38 +148,83 @@ h2.menutitle {
   align-items: center;
   padding-left:20px;
   height: 100px;
-  background-color: rgb(88, 48, 33); /* fix to color to actual website*/
+  background-color: #532b1d
 }
-/* Home/Index Flexboxes */
+
+/*------------------------------------------------------------------------*/
+/* Home/Index page Flexboxes */
 .home-container {
   display: flex;
+  justify-content: center;
+  align-items: top;
   width: 100%;
-  flex-wrap: wrap;
+  padding: 0 20px; /* Space around container */
 }
 
-/* Menu FLexboxes */
-.container {
+/* View More Button & Container */
+.view-more-container {
   display: flex;
-  width: 100%;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px; /* Space btwn button and first image */
 }
 
-/* flex item of 20% per item */
+button {
+  background-color: #532b1d;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3e1c14;
+}
+
+/* Cake Pictures & Text */
 .flex-item {
-  padding: 2%;
+  padding: 10px;
   flex-grow: 1;
-  flex-basis: 15%; /* 15% for borders*/
+  flex-basis: 15%;
   display: flex;
   flex-direction: column;
-  /* so child elements can use flexbox stuff too! */
-  /* switching on borders will force the 5th flex item to move down*/
-  border: 1px solid #D3D3D3;
+  text-align: left;
+  min-height: 250px;
 }
 
 .flex-item img {
   width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin: 0 10px; /* Center the image */
 }
 
+.flex-info {
+  max-width: 250px;
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-info p {
+  margin: 0 8px;
+  padding: 15px 0;
+}
+
+/*------------------------------------------------------------------------*/
+/* Menu FLexboxes */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/*------------------------------------------------------------------------*/
 /* Stores & Contact */
 .storeinfo {
   padding-left: 50px;
